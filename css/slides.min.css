@@ -12864,3 +12864,12 @@ p.remind-43 {
     font-size: 16px;  /* Or 13px for tighter layout */
     line-height: 1.6; /* Optional: improves readability */
   }
+
+  @media only screen and (max-width: 768px) {
+    section[data-name="case"] .background {
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+  

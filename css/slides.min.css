@@ -12869,7 +12869,7 @@ p.remind-43 {
     section[data-name="case"] .background {
       background-size: cover !important;
       background-repeat: no-repeat !important;
-      background-position: 8.5% center !important; /* Slight shift right, shows face better */
+      background-position: 8.5% center !important; 
     }
   }
   .embedVideo iframe {

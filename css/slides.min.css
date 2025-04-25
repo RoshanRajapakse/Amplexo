@@ -12865,10 +12865,11 @@ p.remind-43 {
     line-height: 1.6; /* Optional: improves readability */
   }
 
-@media (max-width: 768px) {
-  section[data-name="case"] .background {
-    background-position: left center !important; /* Shift focus to the left */
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+  @media (max-width: 768px) {
+    section[data-name="case"] .background {
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-position: 8.5% center !important; /* Slight shift right, shows face better */
+    }
   }
-}
+  

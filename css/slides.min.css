@@ -12872,4 +12872,10 @@ p.remind-43 {
       background-position: 8.5% center !important; /* Slight shift right, shows face better */
     }
   }
+  .embedVideo iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+  }
   
